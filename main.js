@@ -68,3 +68,4 @@ document.getElementById('feedbackForm').addEventListener('submit', function (eve
 });
 
 
+// таймер
