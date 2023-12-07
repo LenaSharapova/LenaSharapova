@@ -45,10 +45,7 @@ a:hover {
 
 }
 
-.promo2 {
-    background: url(img/web-design1.jpeg)
 
-}
 .header, .footer {
     position: relative;
     border: 1px solid;
@@ -119,11 +116,12 @@ h1, h2, h3 {
 .contact {
     background: aliceblue;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     font-size: 22px;
     color: black;
     line-height: 2;
     font-weight: bold;
+    padding: 100px;
 }
 .feedback {
     padding-top: 20px;
