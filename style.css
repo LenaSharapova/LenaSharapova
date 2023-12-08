@@ -44,13 +44,11 @@ a:hover {
     color: black;
 
 }
-
-
 .header, .footer {
     position: relative;
     border: 1px solid;
     border-color: black;
-    background:linear-gradient(180deg, rgb(61, 54, 191),#5ba584);
+    background:linear-gradient(180deg, rgb(81, 81, 222), rgb(115, 169, 173));
     height: 60px;
     width: 100%;
     padding: 30px;
@@ -58,6 +56,16 @@ a:hover {
 h1, h2, h3 {
     display: flex;
     justify-content: center;
+}
+.service {
+    margin: 80px 80px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 22px;
+    color: white;
+    background: linear-gradient(45deg, blue,rgb(214, 105, 81), rgb(59, 204, 59), blue);
+    padding: 50px 50px;
+
 }
 .block3 {
     display: flex;
@@ -116,12 +124,20 @@ h1, h2, h3 {
 .contact {
     background: aliceblue;
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
     font-size: 22px;
     color: black;
     line-height: 2;
     font-weight: bold;
     padding: 100px;
+}
+.flower {
+    display: flex;
+    justify-content: right;
+}
+.flower img {
+    width: 300px;
+    height: auto;
 }
 .feedback {
     padding-top: 20px;
@@ -145,7 +161,7 @@ input {
     padding-left: 10px;
 }
 input::placeholder {
-    color: blue;
+    color: green;
     font-size: 14px;
 }
 #youMessage {
@@ -155,7 +171,7 @@ input::placeholder {
 #fbtn {
     width: 300px;
     height: 50px;
-    background:linear-gradient(45deg, #000000, #80a9cd,#000000);
+    background:linear-gradient(45deg, #3b663b, #3b79b6,#447a44);
     color: white;
     font-size: 22px;
     padding: 8px;
@@ -230,14 +246,14 @@ input::placeholder {
     *{
         font-size: 16px;
     }
-    .container, .Fotopromo, .promo {
+    .container, .Fotopromo, .promo, .flower {
         max-width: 330px;
     }
     a {
         font-size: 16px;
     }
     #slider-container {
-        width: 450px;
+        width: 330px;
         height: 300px;
     }
 }
